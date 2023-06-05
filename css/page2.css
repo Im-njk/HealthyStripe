@@ -127,3 +127,18 @@
     }
     
 }
+
+@media (min-width: 1200px) {
+
+    .p2-sortby-text {
+        text-align: end;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .p2-sortby-text {
+        text-align: center;
+    }
+    
+}
