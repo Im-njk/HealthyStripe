@@ -106,17 +106,24 @@
 
 
 
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
 
     .p2-container {
         max-width: 1000px;
     }
 
-
+    .p2-sortby-text {
+        text-align: end;
+    }
 }
 
-@media (min-width: 992px) {
+@media (max-width: 992px) {
     .p2-container {
         max-width: 900px;
+        text-align: end;
     }
+    .p2-sortby-text {
+        text-align: center;
+    }
+    
 }
